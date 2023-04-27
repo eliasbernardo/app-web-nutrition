@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="code/css/login.css">
     <title>LOGIN NUTRIBET</title>
-    
+
 </head>
-<body>    
-    <form>
-        <p>Usuario:<input type="text" id="usuario"></p>
-        <p>Contraseña:</p>
-        <input type="password" id="claves">
-        <input type="button" value="Confirmar" onClick="convertir()">     
-    </form>
+<body>
+  <div class="conten-backImg-login">
+    <div class="conten-backImg">
+      <img src="src/img/fondo-negro-login.jpg" alt="">
+    </div>
+    <div class="conten-login">
+      <div class="conten-col-login">
+        <div class="login">
+          <div class="title">
+            <h4>INICIAR SESIÓN</h4>
+          </div>
+          <input type="text" id="usuario" placeholder="Ingrese usuario">
+          <input type="password" id="clave" placeholder="Ingrese contraseña">
+          <button type="button" value="Confirmar" onClick="convertir()">
+            <span>INGRESAR</span>
+            <div id="loader"></div>
+          </button>
+        </div>
+      </div>
+      <!--<div class="conten-col-login"></div>-->
+    </div>
+  </div>
     <script src="login.js"></script>
 </body>
 </html>
