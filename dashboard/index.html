@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script src="https://kit.fontawesome.com/037dd969c3.js" crossorigin="anonymous"></script>-->
+    <!--PARA LEER LOS DATOS DE EXCEL en html-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!--<script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>-->
+    <link rel="stylesheet" href="../code/css/code.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <div class="img">
+                <img src="../resource/images/logo.png" alt="">
+            </div>
+            <div class="menuBar">
+                <i class="fa-solid fa-bars" id="menubar" onclick="menubar()"></i>
+            </div>
+            <div class="identification">
+                <span id="nameUser">USUARIO</span>
+                <i class="fa-solid fa-user" onclick="tabCerrar()"></i>
+                <div class="subMenUser" id="faUser">
+                    <div class="close" onclick="cerrarSesion()">
+                        <i class="fa-solid fa-door-open"></i>
+                        <span>Cerrar Sesion</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="body-dashboard">
+            <div class="menu-dash">
+                <div>
+                    <div class="nameArea" id="nameArea"></div>
+                    <div class="menu inicio" onclick="">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                    </div>
+                    <div class="menu rUser" id="rUser" onclick="">
+                        <i class="fa-solid fa-user-pen"></i>
+                        <span>Menu</span>
+                    </div>
+                    <!--<div class="menu compras" id="compras2" onclick="cambiarContenidoHtml('prueba',validarConectUs)">
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <span>PRUEBA</span>
+                    </div>-->
+                </div>
+            </div>
+            <div class="container" id="container"></div>
+        </div>
+    </div>
+    <script src="../code/js/fonts/fontawesome.js"></script>
+</body>
+</html>

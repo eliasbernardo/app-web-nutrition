@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/037dd969c3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="code/css/login.css">
     <title>LOGIN NUTRIBET</title>
 
 </head>
 <body>
+  <div id="container">
+
+  </div>
   <div class="conten-backImg-login">
     <div class="conten-backImg">
       <img src="src/img/fondo-negro-login.jpg" alt="">
@@ -21,7 +26,7 @@
           </div>
           <input type="text" id="usuario" placeholder="Ingrese usuario">
           <input type="password" id="clave" placeholder="Ingrese contraseña">
-          <button type="button" value="Confirmar" onClick="convertir()">
+          <button type="button" value="Confirmar" onClick="login()">
             <span>INGRESAR</span>
             <div id="loader"></div>
           </button>
@@ -30,6 +35,7 @@
       <!--<div class="conten-col-login"></div>-->
     </div>
   </div>
-    <script src="login.js"></script>
+  <script src="login.js"></script>
+  <script src="code/js/aviso/avisos.js"></script>
 </body>
 </html>
