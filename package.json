@@ -1,7 +1,7 @@
 {
   "name": "ts-project",
   "version": "5.0.4",
-  "description": "",
+  "description": "-npm install typescript --save-dev\r - npx tsc --version =>para verificar version\r #paso 2 : Crear archivo .gitignore\r #paso 3 : creararchivo .editorconfig",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.5.5"
-  }
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliasbernardo/app-web-nutrition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliasbernardo/app-web-nutrition/issues"
+  },
+  "homepage": "https://github.com/eliasbernardo/app-web-nutrition#readme"
 }
