@@ -1,6 +1,7 @@
 "use strict";
 let container = document.getElementById("container");
 function avisoMostrar(text, tipoIcon) {
+    /*prueba*/
     let bodyAviso = document.createElement("div");
     let mensaje = document.createElement("div");
     let icon = document.createElement("div");
