@@ -10,47 +10,37 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
 }
 
 .datos{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-left: 200px;
     height: auto;
-}
-.dni{
     display: flex;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    flex-direction: column;
+    padding-left: 50px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,.25);
 }
-.act__fis{
+.datos-child{
     display: flex;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.pab{
-    display: flex;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 label{
-    padding-right: 20px;
+    width: 150px;
 }
 .button{
     display: flex;
-    justify-content: center;
-    padding-left: 20px;
 }
 .btn__antrop{
-    width: 100px;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    background-color: #cacbd5;
+    color: #fff;
+    cursor: pointer;
 }
-
+.btn__antrop:hover{
+  outline: 1px solid rgba(211, 210, 213, 0.7);
+}
 .resultado{
     width: 100%;
     height: auto;
