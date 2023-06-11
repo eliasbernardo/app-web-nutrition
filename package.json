@@ -1,7 +1,7 @@
 {
   "name": "ts-project",
   "version": "5.0.4",
-  "description": "",
+  "description": "-npm install typescript --save-dev\r - npx tsc --version =>para verificar version\r #paso 2 : Crear archivo .gitignore\r #paso 3 : creararchivo .editorconfig",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
