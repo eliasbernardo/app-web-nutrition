@@ -10,14 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.9.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eliasbernardo/app-web-nutrition.git"
-  },
-  "bugs": {
-    "url": "https://github.com/eliasbernardo/app-web-nutrition/issues"
-  },
-  "homepage": "https://github.com/eliasbernardo/app-web-nutrition#readme"
+    "typescript": "^4.5.5"
+  }
 }
