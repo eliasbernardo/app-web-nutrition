@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../code/css/registro.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content__registro">
+        <div class="form">
+            <div class="form__title">
+                <h1>Registro de Pacientes</h1>
+            </div>
+            <div class="form__content">
+                <input type="text" id="nombre" class="form__input" placeholder="Escriba los nombres">
+                <input type="text" id="apellido" class="form__input" placeholder="Escriba los apellidos">
+                <input type="number" maxlength="8" id="DNI" class="form__input" placeholder="Escriba el DNI">
+                <div class="form__sexo">
+                    <!--<h3 class="form__h3">Seleccione Sexo:</h3>-->
+                    <select name="sexo" id="sexo" class="sexo">
+                        <option selected disabled>Sexo</option>
+                        <option value="masculino">M</option>
+                        <option value="femenino">S</option>
+                    </select>
+                </div>
+                <div class="form_fnacimiento">
+                    <h3 class="form__h3">Fecha de nacimiento:</h3>
+                    <input type="date" class="fecha">
+                </div>
+                <input type="text" id="talla" class="form__input" placeholder="Escriba la talla">
+                <input type="text" id="peso" class="form__input" placeholder="Escriba el peso">
+                <input type="email" id="correo" class="form__input" placeholder="Escriba el correo">
+                <input type="submit" class="form__btn" value="Enviar">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
