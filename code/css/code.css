@@ -9,7 +9,7 @@
 
 .header{
   width: 100%;
-  height: 110px;
+  height: 100px;
   background: black;
   display: flex;
 }
@@ -53,6 +53,9 @@
 .login-usuario span{
   padding: 10px;
 }
+.login-usuario span a{
+  font-size: 13px;
+}
 .login-usuario span .fa-solid{
   margin-right: 10px;
 }
@@ -63,7 +66,7 @@
 .menu-usuario{
   position: absolute;
   top: 110px;
-  right: 60px;
+  right: 50px;
   width: 100%;
   box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .2);
   color: #000;
@@ -77,6 +80,7 @@
   color: #8b8585;
   padding: 10px;
   text-align: center;
+  font-size: 13px;
 }
 .menu-usuario div:hover{
   background-color: rgba(0, 0, 0, .2);
@@ -90,14 +94,12 @@
   min-height: 100%;
 }
 .menu{
-  width: 15%;
-  min-width: 250px;
-  min-height: calc(100vh - 110px);
+  width: 200px;
+  min-height: calc(100vh - 100px);
   background-color: rgba(0, 0, 0, .8);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 30px;
 }
 .buscar{
   width: 90%;
@@ -127,7 +129,6 @@
 }
 .opciones{
   width: 100%;
-  padding-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,17 +137,13 @@
 
 .opciones .list__button:hover{
   background-color: rgba(255, 255, 255, .1);
-  border-left: 10px solid rgba(255, 255, 0, .2);
+  box-shadow: -10px 0px 0px 0px rgba(255, 255, 0, .2);
 }
 .nav__link{
   color: #CCD1D1;
   display: block;
   padding: 15px 0px;
   text-decoration: none;
-}
-.nav__link--inside{
-  border-radius: 6px;
-  padding-left: 20px;
 }
 .nav__link--inside:hover{
   background-color: rgba(255, 255, 255, .1);
@@ -160,10 +157,11 @@
 .list__item{
   list-style: none;
   width: 100%;
-  text-align: center;
   overflow: hidden;
   cursor: pointer;
   transition: all .5s ease;
+  padding-left: 10px;
+  font-size: 13px;
 }
 .list__item.activo{
   background-color: rgba(255, 255, 255, .1);
@@ -172,11 +170,17 @@
 .list__item--click{
   cursor: pointer;
 }
+.list__inside a{
+  padding-left: 20px;
+}
+.list__inside a:hover{
+  box-shadow: -10px 0px 0px 0px rgba(255, 255, 0, .2);
+}
 .list__button{
   display: flex;
   align-items: center;
   gap: 1em;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
  .arrow .list__arrow{
@@ -195,15 +199,14 @@
 
 
 .list__show{
-  width: 80%;
-  margin-left: auto;
-  /*border-left: 2px solid ;*/
+  width: 100%;
   list-style: none;
   transition: height .4s;
-  height: 0;
+  line-height: 0.5;
 }
 .content{
-  width: 100%;
+  width: calc(100% - 200px);
+  background-color: #f5f5f5;
 
 }
 .content__opcion{
@@ -213,7 +216,4 @@
   display: flex;
 
   transition: all .5s ease;
-}
-.content__opcion.activo{
-
 }
