@@ -1,8 +1,8 @@
 .content__antrop{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column;
+    
 }
 
 .datos{
@@ -44,42 +44,25 @@
 label{
     width: 150px;
 }
-.button{
+.btn__res{
     display: flex;
     padding-left: 100px;
     margin-top: 10px;
 }
-.btn__antrop{
-    width: 150px;
-    padding: 10px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    background-color: #cacbd5;
-    color: #fff;
-    cursor: pointer;
-    color: #CCD1D1;
-    background-color: #338ef0;
-    font-weight: bold;
-    transition: all .5s ease;
-}
-.btn__antrop:hover{
-  outline: 1px solid rgba(211, 210, 213, 0.7);
-  background-color: #1782f4;
-}
-.btn__antrop:focus{
-    box-shadow: 0 0 0 2px rgba(0,123,255,.5);
-}
-.resultado{
+
+.tbl__resultado{
     width: 100%;
-    height: auto;
     padding-top: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 table{
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
 }
 th{
     background-color: rgba(0, 0, 0, .7);
@@ -91,30 +74,11 @@ td,th{
     height: 40px;
 }
 
-.guardar{
+.btn__guardar{
     margin-top: 50px;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-}
-.btn__guardar{
-    width: 200px;
-    padding: 10px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    background-color: #cacbd5;
-    color: #fff;
-    cursor: pointer;
-    color: #CCD1D1;
-    background-color: #338ef0;
-    font-weight: bold;
-    transition: all .5s ease;
-}
-.btn__guardar:hover{
-    outline: 1px soid rgba(211, 210, 213, 0.7);
-    background-color: #1782f4;
-}
-.btn__guardar:focus{
-    box-shadow: 0 0 0 2px rgba(0,123,255,.5);
+    align-items: center;
 }
