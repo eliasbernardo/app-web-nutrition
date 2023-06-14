@@ -28,7 +28,7 @@
 .guardar{
   background-color: #338ef0;
   border: none;
-  padding: 10px;
+  padding: 15px;
   color: #fff;
   width: 150px;
   cursor: pointer;
@@ -40,6 +40,25 @@
   background-color: #1782f4;
 }
 .guardar:focus{
+  box-shadow: 0 0 0 2px rgba(0,123,255,.5);
+}
+/*BOTON CARGAR*/
+.cargar{
+  background-color: #338ef0;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  margin-top: 10px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all .5s ease;
+}
+.cargar:hover{
+  outline: 1px solid rgba(211, 210, 213, 0.7);
+  background-color: #1782f4;
+}
+.cargar:focus{
   box-shadow: 0 0 0 2px rgba(0,123,255,.5);
 }
 /*RESULTADO*/
@@ -59,6 +78,53 @@
 }
 .resultado:focus{
   box-shadow: 0 0 0 2px rgba(0,123,255,.5);
+}
+
+/*TABLE*/
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+  background-color: rgba(0, 0, 0, .2);
+  color: #495057;
+  border-color: #dee2e6;
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  text-align: center;
+}
+td,th{
+  border-color: inherit;
+  /*padding: 10px 20px 10px 20px;*/
+  padding: 8px;
+  vertical-align: middle;
+  border-bottom: 1px solid #dee2e6;
+  height: 40px;
+}
+
+/*INPUT*/
+.input{
+    width: 200px;
+    height: auto;
+    padding: 7px;
+    border: 1px solid #ced4da;
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border-radius: 5px;
+    transition: all .15s ease;
+}
+.input:focus{
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(0,123,255,.25);
+}
+.input::-webkit-inner-spin-button, 
+.input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
 }
 /********************** HEADER *******************/
 
