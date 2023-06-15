@@ -83,6 +83,7 @@
 table{
   border-collapse: collapse;
   width: 100%;
+  background-color: #fff;
 }
 th{
   background-color: rgba(0, 0, 0, .2);
@@ -234,6 +235,7 @@ td input{
 }
 .menu{
   width: 200px;
+  min-width: 200px;
   height: 100%;
   background-color: rgba(0, 0, 0, .8);
   display: flex;
@@ -275,6 +277,18 @@ td input{
 
 }
 
+.list__button{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  margin: 0 auto;
+}
+.fa-solid{
+  margin-left: 10px;
+  color: #fff;
+  font-size: 15px;
+}
 .opciones .list__button:hover{
   background-color: rgba(255, 255, 255, .1);
   box-shadow: -10px 0px 0px 0px rgba(255, 255, 0, .2);
@@ -316,13 +330,6 @@ td input{
 .list__inside a:hover{
   box-shadow: -10px 0px 0px 0px rgba(255, 255, 0, .2);
 }
-.list__button{
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  width: 100%;
-  margin: 0 auto;
-}
  .arrow .list__arrow{
   transform: rotate(90deg);
  }
@@ -345,10 +352,10 @@ td input{
   line-height: 0.5;
 }
 .content{
-  max-width: calc(100% - 200px);
+  width: calc(100% - 200px);
+  min-width: 800px;
   background-color: #f5f5f5;
   overflow: auto;
-
 }
 .content__opcion{
   position: absolute;
