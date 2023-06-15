@@ -10,23 +10,23 @@
 <body>
     <div class="content__antrop">
         <div class="datos">
-            <div class="datos-child dni">
+            <div class="datos__child dni">
                 <label for="dni">Ingresar DNI</label>
-                <input type="number" id="dni" name="dni">
+                <input type="number" id="dni" name="dni" class="input">
             </div>
-            <div class="datos-child act__fis">
+            <div class="datos__child act__fis">
                 <label for="actividad">Actividad física diara</label>
-                <input type="text" id="actividad" name="actividad">
+                <input type="text" id="actividad" name="actividad" class="input">
             </div>
-            <div class="datos-child pab">
+            <div class="datos__child pab">
                 <label for="pab">Ingresar PAB</label>
-                <input type="number" name="pab" id="pab">
+                <input type="number" name="pab" id="pab" class="input">
             </div>
-            <div class="button">
-                <button type="button" class="btn__antrop">Resultado</button>
+            <div class="btn__res">
+                <button type="button" class="resultado">RESULTADO</button>
             </div>
         </div>
-        <div class="resultado">
+        <div class="tbl__resultado">
             <table>
                 <tr>
                     <th>IMC</th>
@@ -38,11 +38,13 @@
                     <td></td>
                     <td></td>
                 </tr>
+                
             </table>
+            <div class="btn__guardar">
+                <button class="guardar">GUARDAR</button>
+            </div>
         </div>
-        <div class="guardar">
-            <input type="button" value="GUARDAR" id="ant__guardar" class="btn__guardar">
-        </div>
+        
     </div>
 </body>
 </html>
