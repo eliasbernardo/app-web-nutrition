@@ -12,7 +12,8 @@
     flex-direction: column;
     padding-left: 50px;
     padding: 20px;
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,.25);
+    background-color: #fff;
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,.25);
 }
 .datos__child{
     display: flex;
@@ -36,13 +37,17 @@
     outline: 0;
     box-shadow: 0 0 0 2px rgba(0,123,255,.25);
 }
-.datos__input::-webkit-inner-spin-button, 
+.datos__input::-webkit-inner-spin-button,
 .datos__input::-webkit-outer-spin-button{
     -webkit-appearance: none;
     margin: 0;
 }
 label{
-    width: 150px;
+    width: 130px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #ababab;
 }
 .btn__res{
     display: flex;
