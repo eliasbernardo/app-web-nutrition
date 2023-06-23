@@ -1,7 +1,6 @@
 
 .inter__alimentos{
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -77,4 +76,19 @@ tr td{
 }
 .guardar{
     margin: 0;
+}
+
+@media (min-width:1281px){
+    .inter__alimentos{
+        align-items: center;
+    }
+    .first-column{
+        width: 1000px;
+    }
+    table{
+        width: 450px;
+    }
+    .table__left{
+        justify-content: center;
+    }
 }
