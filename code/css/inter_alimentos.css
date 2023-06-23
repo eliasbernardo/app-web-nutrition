@@ -4,57 +4,70 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    align-items: center;
+}
+.title{
+    margin-bottom: 10px;
+}
+.first-column{
+    display: flex;
+    width: 1200px;
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,.25);
+    background: #fff;
+    margin-bottom: 15px;
 }
 .datos__intal{
-    width: 100%;
+    width: 280px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-top: 50px;
     padding-bottom: 20px;
-    align-items: center;
+    padding-left: 20px;
 }
 .lbl__dni{
     margin-right: 30px;
 }
 .input{
-    margin-right: 30px;
+    margin-bottom: 10px;
 }
 
 .cargar{
     margin: 0;
 }
 .table__left{
-    width: 100%;
+    width: calc(100% - 280px);
     display: flex;
-    justify-content: center;
-    height: auto;
     padding: 50px 10px;
 }
 .table__right{
     width: 100%;
-    height: auto;
     display: flex;
-    justify-content: center;
-    padding: 50px 10px;
+    padding: 50px 20px;
 }
 
 .table__tp{
     width: 100%;
     display: flex;
-    justify-content: center;
-    height: auto;
-    padding: 50px 10px;
+    padding: 50px 20px;
+}
+th{
+    font-size: 11px;
 }
 .vacio{
     border: 0;
     background-color: #f5f5f5;
 }
 table{
-    width: 800px;
+    width: 550px;
 }
-
+tr td{
+    border-right: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    width: 40px;
+    height: 25px;
+    font-size: 11px;
+    text-align: center
+    ;
+}
 .guardar__ial{
     width: 100%;
     height: auto;
