@@ -5,7 +5,6 @@ let container = document.getElementById("content");
 function XHRPOSTGENERAL(nombre){
     //llame la ventana que debe mostrar la opcion1
     let xhr = new XMLHttpRequest();
-    console.log(xhr);
     xhr.open("GET",'http://127.0.0.1:5500/dashboard/menu_lateral/'+nombre+'/');
     xhr.responseText = 'text';
     xhr.onreadystatechange = function(){
